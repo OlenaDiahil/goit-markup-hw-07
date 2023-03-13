@@ -730,7 +730,7 @@ img {
     }
 
     .customers-list .customers-item {
-        width: calc((100% - 2 * 24px) / 3);
+        width: calc((100% - 2 * 117px) / 3);
     }
 }
 
@@ -792,6 +792,7 @@ img {
 
 @media screen and (min-width: 768px) {
     .footer-asides {
+        padding-left: 108px;
         text-align: start;
         align-items: start;
         justify-content: start;
@@ -803,6 +804,7 @@ img {
 
 @media screen and (min-width: 1200px) {
     .footer-asides {
+        padding-left: 0px;
         flex-wrap: nowrap;
         gap: 0;
     }
